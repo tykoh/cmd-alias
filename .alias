@@ -1,0 +1,17 @@
+alias k=kubectl
+alias k.gp="kubectl get pods"
+alias k.dp="kubectl delete pod"
+alias k.apply="kubectl apply"
+alias k.ns.current="kubectl config set-context --current"
+alias k.dp="kubectl delete pod"
+alias k.port-forward="kubectl port-forward"
+alias k.get.deployment="kubectl get deployment -oyaml"
+alias k.context.rancher-desktop="kubectl config use-context rancher-desktop"
+alias k.rollout="kubectl rollout restart deployment"
+alias k.rollout.all="kubectl rollout restart deployments"
+alias tf="terraform"
+alias tf.init="terraform init"
+alias tf.plan="terraform plan"
+alias tf.apply="terraform apply"
+alias tf.destroy="terraform destroy"
+
